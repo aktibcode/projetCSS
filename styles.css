@@ -5,10 +5,16 @@ body {
     background: #9dcbf1;
 }
 
+#img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+
 header {
     background: #73a5ce;
     max-width: 100%;
-    height: 150px;
+    height: 100px;
 }
 
 .main {
@@ -17,6 +23,14 @@ header {
     background: #73a5ce;
     ;
 }
+
+.navbar {
+    margin: auto 5px;
+    background: #a0b4c4;
+    padding: 5px;
+}
+
+
 
 .menu_navbar li {
     display: inline;
