@@ -37,15 +37,17 @@ header {
 }
 
 .footer {
+    display: flex;
     max-width: 80%;
     margin: 5px auto;
     height: 200px;
     background: #9ac0df;
+    flex-direction: row-reverse;
 }
 
 .footer_infor {
     margin: 10px;
-    width: 30%;
+    width: 40%;
     height: 150px;
     background: #73a5ce;
     display: inline-block;
