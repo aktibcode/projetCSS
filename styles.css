@@ -1,16 +1,11 @@
 body {
-    position: relative;
+
     margin: 0;
     padding: 0;
     font-family: roboto;
     background: #9dcbf1;
 }
 
-#img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50px;
-}
 
 header {
     background: #73a5ce;
@@ -33,6 +28,7 @@ header {
 }
 
 .main {
+
     max-width: 80%;
     margin: 5px auto;
     background: #73a5ce;
@@ -40,17 +36,42 @@ header {
     position: relative;
 }
 
+
+
 /* Sections */
 
 .about {
+    position: relative;
+    /* position: absolute; */
     background: #a0f385;
+    padding: 25px;
+    height: 200px;
+}
+
+
+
+#img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.about h1 {
+    text-align: center;
 }
 
 .about p {
+
+    text-align: center;
+    margin: 10px auto;
     background: #ff7c36;
 }
 
 .work {
+    /* position: absolute; */
     background: #05e5f5;
 }
 
