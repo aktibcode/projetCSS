@@ -49,11 +49,14 @@ header {
 }
 
 
+.about p {
+    width: 60%;
+}
 
 #img {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 40px;
+    left: 10px;
     height: 150px;
     width: 150px;
     border-radius: 50px;
