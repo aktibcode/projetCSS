@@ -93,20 +93,32 @@ body {
 }
 
 .contact {
-    /* position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 50%; */
-    /* justify-content: center; */
+    width: 50%;
+    margin: auto;
     background: #07a9b4;
 }
 
 .contact form {
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
 }
 
-.contact h1 {}
+.contact h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact form label {
+    margin: 10px 0px;
+}
+
+.contact form .btnEnvoie {
+    width: 200px;
+    margin: 3px auto;
+}
 
 /* Fin Sections */
 
