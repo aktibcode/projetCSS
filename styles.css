@@ -7,11 +7,6 @@ body {
 }
 
 
-header {
-    background: #73a5ce;
-    max-width: 100%;
-    height: 20px;
-}
 
 .navbar {
     margin: auto 0;
@@ -21,11 +16,26 @@ header {
     height: 50px;
     top: 0px;
     z-index: 1;
+    text-align: center;
 }
 
 .menu_navbar li {
     display: inline;
 }
+
+.menu_navbar li a {
+    text-decoration: none;
+    margin: 2px 5px;
+    background-color: #9dcbf1;
+    padding: 3px 15px;
+    border-radius: 5px;
+
+}
+
+.menu_navbar li a:hover {
+    background-color: #73a5ce;
+}
+
 
 .main {
 
